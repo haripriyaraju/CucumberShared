@@ -1,0 +1,101 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-24T10:07:15.227Z",
+        "line": 7,
+        "name": "add two number",
+        "description": "",
+        "id": "test-calculator;add-two-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5664800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter 40 in the calculator",
+            "match": {
+              "location": "stepdef.abc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 396200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press Add",
+            "match": {
+              "location": "stepdef.bdc()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 515600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have entered 20 in the calculator",
+            "match": {
+              "location": "stepdef.cdc()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I press Equals",
+            "match": {
+              "location": "stepdef.fgv()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 386500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The should be 60",
+            "match": {
+              "location": "stepdef.fkjk()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Test calculator",
+    "description": "  this file describe the calculator functionallty",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:calculator/cucu.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
